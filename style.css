@@ -1,0 +1,145 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.container
+{
+    position: relative;
+    width : 1100px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.container .card
+{
+    position: relative;
+    width: 150px;
+    height:115px;
+    background: #fff;
+    margin: 30px 10px;
+    padding : 20px 15px;
+    display: flex;
+    flex-direction:column;
+    box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.container .card:hover
+{
+    height: 220px;
+}
+
+.container .card .imgbx0
+{
+    position: relative;
+    background-color: #17914a;
+    width: 120px;
+    height:120px;
+    top: -60px;
+    left: 20px;
+    z-index:1;
+    border-radius: 50%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+
+.container .card .imgbx1
+{
+    position: relative;
+    background-color: #531470;
+    width: 120px;
+    height:120px;
+    top: -60px;
+    left: 20px;
+    z-index:1;
+    border-radius: 50%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.container .card .imgbx2
+{
+    position: relative;
+    background-color: #4c12c9;
+    width: 120px;
+    height:120px;
+    top: -60px;
+    left: 20px;
+    z-index:1;
+    border-radius: 50%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.container .card .imgbx3
+{
+    position: relative;
+    background-color: #c7b924;
+    width: 120px;
+    height:120px;
+    top: -60px;
+    left: 20px;
+    z-index:1;
+    border-radius: 50%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.container .card .imgbx4
+{
+    position: relative;
+    background-color: #5dc724;
+    width: 120px;
+    height:120px;
+    top: -60px;
+    left: 20px;
+    z-index:1;
+    border-radius: 50%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+
+
+
+.container .card .content
+{
+    position:relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align:center;
+    color:#111;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10%;
+    transform: 0.3s ease-in-out;
+}
+
+.container .card:hover .content
+{
+    visibility:visible;
+    opacity:1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+.back{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
